@@ -1,11 +1,3 @@
-# LOUIS Home
-#JCFLAGS  =	-cp "/Users/catherine/Desktop/IUT\ 2/ACDA/Projet_API/dongeonapi/mariadb-client.jar:build" -d build -sourcepath "src:tmp"
-#JVFLAGS  =	-cp "/Users/catherine/Desktop/IUT\ 2/ACDA/Projet_API/dongeonapi/mariadb-client.jar:build"
-
-# Paul
-JCFLAGS  =	-cp "/home/paul/IUT/Annee2/ACDA/F.Madelaine/ACDA/Projets/Projet_API/dongeonapi/lib/mariadb-client/mariadb-client.jar:build" -d build -sourcepath "src:tmp"
-JVFLAGS  =	-cp "/home/paul/IUT/Annee2/ACDA/F.Madelaine/ACDA/Projets/Projet_API/dongeonapi/lib/mariadb-client/mariadb-client.jar:build"
-
 #JCFLAGS  =	-cp "/export/documents/mariadb-client.jar:build" -d build -sourcepath "src:tmp"
 #JVFLAGS  =	-cp "/export/documents/mariadb-client.jar:build"
 
