@@ -1,5 +1,5 @@
-#JCFLAGS  =	-cp "/export/documents/mariadb-client.jar:build" -d build -sourcepath "src:tmp"
-#JVFLAGS  =	-cp "/export/documents/mariadb-client.jar:build"
+JCFLAGS  =	-cp "lib/mariadb-client/mariadb-client.jar:build" -d build -sourcepath "src:tmp"
+JVFLAGS  =	-cp "lib/mariadb-client/mariadb-client.jar:build"
 
 JC   	 =	javac
 JV 		 =	java
