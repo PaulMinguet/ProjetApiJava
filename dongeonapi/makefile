@@ -1,5 +1,5 @@
-#JCFLAGS  =	-cp "/export/documents/mariadb-client.jar:build" -d build -sourcepath "src:tmp"
-#JVFLAGS  =	-cp "/export/documents/mariadb-client.jar:build"
+JCFLAGS  =	-cp "/export/documents/mariadb-client.jar:build" -d build -sourcepath "src:tmp"
+JVFLAGS  =	-cp "/export/documents/mariadb-client.jar:build"
 
 JC   	 =	javac
 JV 		 =	java
@@ -33,7 +33,7 @@ $(BMP)ContientTrucsP.class : $(SMP)ContientTrucsP.java
 $(BMP)Inventaire.class : $(SMP)Inventaire.java
 	$(JC) $(JCFLAGS) $(SMP)Inventaire.java
 $(BMP)JoueurP.class : $(SMP)JoueurP.java
-	$(JC) $(JCFLAGS) $(SMP)JoueurP.javaù
+	$(JC) $(JCFLAGS) $(SMP)JoueurP.java
 $(BMP)PieceP.class : $(SMP)PieceP.java
 	$(JC) $(JCFLAGS) $(SMP)PieceP.java
 $(BMP)PanelNom.class : $(SMP)PanelNom.java
