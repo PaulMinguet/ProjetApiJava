@@ -8,7 +8,7 @@ import java.awt.*;
 public class Vue extends JFrame{
 
     private TestTexteMP test;
-    public JPanel mainPanel, panel, map, alcool, eau, eau2, cle, tresor, tresor2, inventaire;
+    public JPanel mainPanel, panel, map, inventaire;
     private CardLayout cardLayout, cLMap;
     public Inventaire invent;
     private ImageIcon fond;
@@ -28,12 +28,6 @@ public class Vue extends JFrame{
 
         panel = new JPanel(new CardLayout());
         map = new JPanel(new CardLayout());
-        alcool = new JPanel();
-        eau = new JPanel();
-        eau2 = new JPanel();
-        cle = new JPanel();
-        tresor = new JPanel();
-        tresor2 = new JPanel();
         fond = new ImageIcon("res/images/baseInventaire.png");
 
         panel.add(new JLabel(new ImageIcon("res/images/passageNord.png")), "1");
@@ -52,12 +46,6 @@ public class Vue extends JFrame{
         for(int i = 1; i < 11; i++){
             map.add(new JLabel(new ImageIcon("res/images/map" + i + ".png")), "" + i + "");
         }
-        alcool.add(new JLabel(new ImageIcon("res/images/alcool.png")));
-        eau.add(new JLabel(new ImageIcon("res/images/eau.png")));
-        eau2.add(new JLabel(new ImageIcon("res/images/eau.png")));
-        tresor.add(new JLabel(new ImageIcon("res/images/tresor.png")));
-        tresor2.add(new JLabel(new ImageIcon("res/images/tresor.png")));
-        cle.add(new JLabel(new ImageIcon("res/images/cle.png")));
         
         cardLayout = (CardLayout) panel.getLayout();
         cLMap = (CardLayout) map.getLayout();
